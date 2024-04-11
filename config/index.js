@@ -10,8 +10,8 @@ new Session({
 	connectedPlayers: 0, // Used as a fallback if pinging the server fails.
 	maxConnectedPlayers: 40, // Used as a fallback if pinging the server fails.
 
-	ip: "play.servermc.xyz", // The ip of the server you are using.
-	port: 28915, // The port of the server you are using.
+	ip: "astra13.aternos.me", // The ip of the server you are using.
+	port: 28792, // The port of the server you are using.
 	connectionType: 6, // I don't recommend changing this.
 
 	log: false, // If you want to see the console output set to true.
