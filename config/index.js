@@ -1,12 +1,4 @@
 import { Session } from "friend-connect";
-import express from 'express';
-const app = express();
-const port2 = 10000;
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
 new Session({
 	hostName: "Astra Portal", // The hostname of the server
 	worldName: "New server testing", // Use as a MOTD
