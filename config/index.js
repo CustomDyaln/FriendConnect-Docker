@@ -1,5 +1,16 @@
 import { Session } from "friend-connect";
-import "web.js";
+import express from 'express';
+const app = express()
+const port = 1000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
 
 new Session({
 	hostName: "Astra Portal", // The hostname of the server
