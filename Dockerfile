@@ -15,7 +15,7 @@ RUN apt update && \
 RUN npm install friend-connect@0.7.6
 
 # Install http 0.0.1
-RUN npm install http@0.0.1
+RUN npm install http
 
 # Copy index.js and package.json
 COPY --chown=friendconnect:friendconnect config/index.js package.json ./
