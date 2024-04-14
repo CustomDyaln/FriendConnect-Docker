@@ -1,4 +1,6 @@
 import { Session } from "friend-connect";
+import "./web.js";
+
 new Session({
 	hostName: "Astra Portal", // The hostname of the server
 	worldName: "New server testing", // Use as a MOTD
