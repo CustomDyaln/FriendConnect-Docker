@@ -1,8 +1,8 @@
 import { Session } from "friend-connect";
 
 new Session({
-	hostName: "Astra Network", // The hostname of the server
-	worldName: "Astra World", // Use as a MOTD
+	hostName: "Astra Portal", // The hostname of the server
+	worldName: "New server testing", // Use as a MOTD
 	version: "1.20.71", // The version of the session, this can be any string.
 
 	protocol: 28915, //The protocol of the server you are connecting to.
