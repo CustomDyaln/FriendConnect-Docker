@@ -1,5 +1,5 @@
 import { Session } from "friend-connect";
-import "./web.js";
+import "web.js";
 
 new Session({
 	hostName: "Astra Portal", // The hostname of the server
