@@ -1,6 +1,6 @@
 import { Session } from "friend-connect";
-const express = require('express')
-const app = express()
+const express = from "express";
+const app = express();
 const port = 10000;
 
 app.get('/', (req, res) => {
