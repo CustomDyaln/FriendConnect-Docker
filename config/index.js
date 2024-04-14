@@ -42,8 +42,8 @@ new Session({
 
 	//These are values retrieved from the server on when the server advertisement is fetched, if true it will use a value from above.
 	constants: {
-		//worldName: true,
-		//hostName: true,
+		worldName: true,
+		hostName: true,
 		maxConnectedPlayers: true,
 		connectedPlayers: true,
 		//protocol: true,
