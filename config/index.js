@@ -28,14 +28,14 @@ new Session({
 	connectedPlayers: 0, // Used as a fallback if pinging the server fails.
 	maxConnectedPlayers: 40, // Used as a fallback if pinging the server fails.
 
-	ip: "play.servermc.xyz", // The ip of the server you are using.
-	port: 29093, // The port of the server you are using.
+	ip: "149.56.19.87", // The ip of the server you are using.
+	port: 25577, // The port of the server you are using.
 	connectionType: 6, // I don't recommend changing this.
 
 	log: false, // If you want to see the console output set to true.
 	joinability: "joinable_by_friends", // The joinability of the session, if this is changed only one account can be used to connect to the session.
 	autoFriending: true, // Set this to true if you want to automatically add people who follow the accounts.
-	pingServerForInfo: true, // If FriendConnect keeps erroring out due to a rakNet ping error you can set this to false.
+	pingServerForInfo: false, // If FriendConnect keeps erroring out due to a rakNet ping error you can set this to false.
 
 	tokenPath: "./auth", // The path to the directory that contains the authentication tokens.
 	accounts: ["thecustomdylan@gmail.com"], // A list of emails that correspond to accounts you want to use with FriendConnect.
