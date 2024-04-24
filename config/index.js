@@ -21,7 +21,7 @@ server.listen(1000, () => {
 new Session({
 	hostName: "§l§aAstra Portal", // The hostname of the server
 	worldName: "§l§gLifesteal Season 1 Released!", // Use as a MOTD
-	version: "1.20.71", // The version of the session, this can be any string.
+	version: "1.20.80", // The version of the session, this can be any string.
 
 	protocol: 28915, //The protocol of the server you are connecting to.
 
